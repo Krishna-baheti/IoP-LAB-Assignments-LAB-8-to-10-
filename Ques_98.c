@@ -21,7 +21,8 @@ int main() {
     
     // Check if multiplication is possible
     if (col1 != row2) {
-        printf("Matrix multiplication is not possible."); 
+        printf("Matrix multiplication is not possible.");
+        return 0;
     }
     
     // Allocate memory for matrices dynamically
