@@ -21,7 +21,7 @@ int main() {
 
     printf("ENTER INFO OF EMPLOYEES : \n\n\n");
 
-    struct employee employ[50];
+    struct employee employ[n];
     for(int i = 0; i < n; i++) {
          printf("Enter employee name : ");
         scanf(" %[^\n]",employ[i].employee_name);
