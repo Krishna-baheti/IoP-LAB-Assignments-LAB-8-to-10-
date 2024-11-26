@@ -20,11 +20,12 @@ int main() {
     
 
     int *ptr = arr; // ptr points to first element of array crr
+    ptr = ptr + n - 1; // ptr now points to last element of array arr
     int *ptr1 = brr; // ptr1 points to first element of array brr
     int i = 0;
     while(i < n) {
-        *ptr1 = *ptr;
-        ptr++;
+        *ptr1 = *ptr; // this copies last element of arr to first element of brr
+        ptr--;
         ptr1++;
         i++;
     }
